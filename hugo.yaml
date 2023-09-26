@@ -1,0 +1,416 @@
+baseURL: https://mecheter.org/
+languageCode: en-us
+title: Mebarek
+theme: LoveIt
+
+build:
+  transpileSCSS: "libsass"
+
+defaultContentLanguage: en
+languageCode: en
+languageName: English
+hasCJKLanguage: false
+paginate: 12
+googleAnalytics: ''
+copyright: ''
+enableRobotsTXT: true
+enableGitInfo: true
+enableEmoji: true
+ignoreErrors:
+  - error-remote-getjson
+  - error-missing-instagram-accesstoken
+author:
+  name: Mohammed Mebarek Mecheter
+  email: 'mohammedmecheter@gmail.com'
+  link: ''
+menu:
+  main:
+    - weight: 1
+      identifier: posts
+      pre: ''
+      post: ''
+      name: Posts
+      url: /posts/
+      title: ''
+    - weight: 2
+      identifier: tags
+      pre: ''
+      post: ''
+      name: Tags
+      url: /tags/
+      title: ''
+    - weight: 3
+      identifier: categories
+      pre: ''
+      post: ''
+      name: Categories
+      url: /categories/
+      title: ''
+params:
+  defaultTheme: auto
+  gitRepo: 'Mohammed-Mebarek-Mecheter'
+  fingerprint: ''
+  dateFormat: '2006-01-02'
+  title: Mebarek
+  description: Hugo theme - Mebarek
+  images:
+    - /logo.png
+  header:
+    desktopMode: fixed
+    mobileMode: auto
+    title:
+      logo: ''
+      name: Mebarek
+      pre: <i class="bi bi-clipboard-data" aria-hidden='true'></i>
+      post: ''
+      typeit: false
+  footer:
+    enable: true
+    custom: ''
+    hugo: true
+    copyright: true
+    author: true
+    since: 
+    icp: ''
+    license: >-
+      <a rel="license external nofollow noopener noreffer"
+      href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC
+      BY-NC 4.0</a>
+  section:
+    paginate: 20
+    dateFormat: 01-02
+    rss: 10
+  list:
+    paginate: 20
+    dateFormat: 01-02
+  app:
+    title: Mebarek
+    noFavicon: false
+    svgFavicon: ''
+    themeColor: '#ffffff'
+    iconColor: '#5bbad5'
+    tileColor: '#da532c'
+  search:
+    enable: true
+    type: algolia
+    contentLength: 4000
+    placeholder: ''
+    maxResultLength: 10
+    snippetLength: 30
+    highlightTag: em
+    absoluteURL: false
+    algolia:
+      index: ''
+      appID: ''
+      searchKey: ''
+  home:
+    profile:
+      enable: true
+      gravatarEmail: ''
+      avatarURL: 
+      title: ''
+      subtitle: 'Where Data meets Artistry, Elegance, and Innovation'
+      typeit: true
+      social: true
+      disclaimer: ''
+    posts:
+      enable: true
+      paginate: 6
+  social:
+    GitHub: ''
+    Linkedin: ''
+    Twitter: ''
+    Instagram: ''
+    Facebook: ''
+    Telegram: ''
+    Twitter: ''
+    Kaggle: ''
+  page:
+    hiddenFromHomePage: false
+    hiddenFromSearch: false
+    twemoji: false
+    lightgallery: false
+    ruby: true
+    fraction: true
+    fontawesome: true
+    linkToMarkdown: true
+    rssFullText: false
+    toc:
+      enable: true
+      keepStatic: false
+      auto: true
+    code:
+      copy: true
+      maxShownLines: 50
+    math:
+      enable: false
+      inlineLeftDelimiter: ''
+      inlineRightDelimiter: ''
+      blockLeftDelimiter: ''
+      blockRightDelimiter: ''
+      copyTex: true
+      mhchem: true
+    mapbox:
+      accessToken: >-
+        pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ
+      lightStyle: 'mapbox://styles/mapbox/light-v10?optimize=true'
+      darkStyle: 'mapbox://styles/mapbox/dark-v10?optimize=true'
+      navigation: true
+      geolocate: true
+      scale: true
+      fullscreen: true
+    share:
+      enable: true
+      Twitter: true
+      Facebook: true
+      Linkedin: false
+      Whatsapp: false
+    comment:
+      enable: true
+      disqus:
+        enable: false
+        shortname: ''
+      gitalk:
+        enable: false
+        owner: ''
+        repo: ''
+        clientId: ''
+        clientSecret: ''
+      valine:
+        enable: true
+        appId: QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI
+        appKey: WBmoGyJtbqUswvfLh6L8iEBr
+        placeholder: ''
+        avatar: mp
+        meta: ''
+        pageSize: 10
+        lang: ''
+        visitor: true
+        recordIP: true
+        highlight: true
+        enableQQ: false
+        serverURLs: 'https://mecheter.com'
+        emoji: ''
+      facebook:
+        enable: false
+        width: 100%
+        numPosts: 10
+        appId: ''
+        languageCode: ''
+      telegram:
+        enable: false
+        siteID: ''
+        limit: 5
+        height: ''
+        color: ''
+        colorful: true
+        dislikes: false
+        outlined: false
+      commento:
+        enable: false
+      utterances:
+        enable: false
+        repo: ''
+        issueTerm: pathname
+        label: ''
+        lightTheme: github-light
+        darkTheme: github-dark
+      giscus:
+        enable: false
+        repo: ''
+        repoId: ''
+        category: Announcements
+        categoryId: ''
+        lang: ''
+        mapping: pathname
+        reactionsEnabled: '1'
+        emitMetadata: '0'
+        inputPosition: bottom
+        lazyLoading: false
+        lightTheme: light
+        darkTheme: dark
+    library:
+      css: {}
+      js: {}
+    seo:
+      images: []
+      publisher:
+        name: xxxx
+        logoUrl: 
+  typeit:
+    speed: 100
+    cursorSpeed: 1000
+    cursorChar: '|'
+    duration: -1
+  verification:
+    google: ''
+    bing: ''
+    yandex: ''
+    pinterest: ''
+    baidu: ''
+  seo:
+    image: /images/Apple-Devices-Preview.png
+    thumbnailUrl: /images/screenshot.png
+  analytics:
+    enable: false
+    google:
+      id: ''
+      anonymizeIP: true
+    fathom:
+      id: ''
+      server: ''
+    plausible:
+      dataDomain: ''
+    yandexMetrica:
+      id: ''
+  cookieconsent:
+    enable: false
+    content:
+      message: ''
+      dismiss: ''
+      link: ''
+  cdn:
+    data: jsdelivr.yml
+  compatibility:
+    polyfill: false
+    objectFit: false
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: false
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+sitemap:
+  changefreq: weekly
+  filename: sitemap.xml
+  priority: 0.5
+Permalinks:
+  posts: ':filename'
+privacy:
+  googleAnalytics: {}
+  twitter:
+    enableDNT: true
+  youtube:
+    privacyEnhanced: true
+mediaTypes:
+  text/plain:
+    suffixes:
+      - md
+outputFormats:
+  MarkDown:
+    mediaType: text/plain
+    isPlainText: true
+    isHTML: false
+outputs:
+  home:
+    - HTML
+    - JSON
+  page:
+    - HTML
+    - MarkDown
+  section:
+    - HTML
+  taxonomy:
+    - HTML
+  taxonomyTerm:
+    - HTML
+languages:
+  en:
+    weight: 1
+    languageCode: en
+    languageName: English
+    hasCJKLanguage: false
+    copyright: >-
+      This work is licensed under a Creative Commons Attribution-NonCommercial
+      4.0 International License.
+    menu:
+      main:
+        - weight: 1
+          identifier: posts
+          pre: ''
+          post: ''
+          name: Posts
+          url: /posts/
+          title: ''
+        - weight: 2
+          identifier: tags
+          pre: ''
+          post: ''
+          name: Tags
+          url: /tags/
+          title: ''
+        - weight: 3
+          identifier: categories
+          pre: ''
+          post: ''
+          name: Categories
+          url: /categories/
+          title: ''
+        - weight: 4
+          identifier: documentation
+          pre: ''
+          post: ''
+          name: Docs
+          url: /categories/documentation/
+          title: ''
+        - weight: 5
+          identifier: about
+          pre: ''
+          post: ''
+          name: About
+          url: /about/
+          title: ''
+        - weight: 6
+          identifier: github
+          pre: <i class='fab fa-github fa-fw' aria-hidden='true'></i>
+          post: ''
+          name: ''
+          url: 'Mohammed-Mebarek-Mecheter'
+          title: GitHub
+    params:
+      search:
+        enable: true
+        type: algolia
+        contentLength: 4000
+        placeholder: ''
+        maxResultLength: 10
+        snippetLength: 30
+        highlightTag: em
+        absoluteURL: false
+        algolia:
+          index: index.en
+          appID: PASDMWALPK
+          searchKey: b42948e51daaa93df92381c8e2ac0f93
+      home:
+        profile:
+          enable: true
+          gravatarEmail: ''
+          avatarURL: /images/M.jpg
+          title: ''
+          subtitle: 'Where Data meets Artistry, Elegance, and Innovation'
+          typeit: true
+          social: true
+          disclaimer: ''
+      social:
+        GitHub: Mohammed-Mebarek-Mecheter
+        Twitter: MecheterMebarek
+        Instagram: heydata/
+        Facebook: mohamed.mebarek.714/
+        Telegram: xxxx
+        Phone: +213668494562
+        Email: mohammedmecheter@gmail.com

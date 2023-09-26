@@ -1,0 +1,114 @@
+backToTop:
+  other: الرجوع للأعلى
+viewComments:
+  other: عرض التعليقات
+posts:
+  other: التدوينات
+allSome:
+  other: 'كُل {{ .Some }}'
+tag:
+  other: وسم
+tags:
+  other: وسوم
+category:
+  other: تصنيف
+categories:
+  other: التصانيف
+more:
+  other: المزيد
+selectLanguage:
+  other: إختيار اللغة
+switchTheme:
+  other: تغيير القالب
+poweredBySome:
+  other: 'يعمل الموقع بنظام {{ .Hugo }} | التصميم مقدم من  {{ .Theme }}'
+valineLang:
+  other: en
+valinePlaceholder:
+  other: تعليقك...
+facebookLanguageCode:
+  other: ar_AR
+giscusLang:
+  other: en
+search:
+  other: بحث
+searchPlaceholder:
+  other: ابحث في العناوين او المحتوى...
+clear:
+  other: مسح
+cancel:
+  other: إلغاء
+noResultsFound:
+  other: لا يوجد نتائج
+lunrLanguageCode:
+  other: ar
+copyToClipboard:
+  other: نسخ
+cookieconsentMessage:
+  other: هذا الموقع يستخدم الكوكيز لتجربة تصفح افضل.
+cookieconsentDismiss:
+  other: حسنًا
+cookieconsentLink:
+  other: معرفة المزيد
+shareOn:
+  other: مشاركة الرابط
+contents:
+  other: المحتويات
+publishedOnDate:
+  other: 'نُشرت في {{ .Date }}'
+includedInCategories:
+  other: 'في تصنيف {{ .Categories }}'
+wordCount:
+  one: كلمة واحدة
+  other: '{{ .Count }} كلمة'
+readingTime:
+  one: دقيقة واحدة
+  other: '{{ .Count }} دقيقة'
+views:
+  other: مشاهدات
+author:
+  other: الكاتب
+updatedOnDate:
+  other: 'تم التحديث في {{ .Date }}'
+readMarkdown:
+  other: قراءة نص المارك داون
+back:
+  other: الرجوع
+home:
+  other: الرئيسية
+readMore:
+  other: قراءة المزيد
+pageNotFound:
+  other: لم يتم العثور على الصفحة
+pageNotFoundText:
+  other: الصفحة التي تحاول الوصول اليها لم يتم العثور عليها.
+note:
+  other: ملاحظة
+abstract:
+  other: مقدمة
+info:
+  other: معلومات
+tip:
+  other: نصيحة
+success:
+  other: نجح
+question:
+  other: سؤال
+warning:
+  other: تحذير
+failure:
+  other: فشل
+danger:
+  other: خطر
+bug:
+  other: خطئ برمجي
+example:
+  other: مثال
+quote:
+  other: إقتباس
+new:
+  other: جديد
+changed:
+  other: تم تعديله
+deleted:
+  other: حُذف

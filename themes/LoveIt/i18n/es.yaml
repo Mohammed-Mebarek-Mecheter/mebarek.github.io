@@ -1,0 +1,116 @@
+backToTop:
+  other: Volver arriba
+viewComments:
+  other: Ver comentarios
+posts:
+  other: Artículos
+allSome:
+  other: 'Todos los {{ .Some }}'
+tag:
+  other: Etiqueta
+tags:
+  other: Etiquetas
+category:
+  other: Categoría
+categories:
+  other: Categorías
+more:
+  other: Más
+selectLanguage:
+  other: Selecciona el lenguage
+switchTheme:
+  other: Cambia el tema
+poweredBySome:
+  other: 'Con la tecnología de {{ .Hugo }} | Tema - {{ .Theme }}'
+valineLang:
+  other: en
+valinePlaceholder:
+  other: Tu comentario ...
+facebookLanguageCode:
+  other: es_MX
+giscusLang:
+  other: es
+search:
+  other: Buscar
+searchPlaceholder:
+  other: Busca títulos o contenido...
+clear:
+  other: Limpiar
+cancel:
+  other: Cancelar
+noResultsFound:
+  other: No se encontraron resultados
+lunrLanguageCode:
+  other: es
+lunrLanguageLib:
+  other: lib/lunr/lunr.es.js
+copyToClipboard:
+  other: Copiar al portapapeles
+cookieconsentMessage:
+  other: Este sitio web utiliza Cookies para mejorar su experiencia.
+cookieconsentDismiss:
+  other: De acuerdo
+cookieconsentLink:
+  other: Aprende más
+shareOn:
+  other: Compartir en
+contents:
+  other: Contenido
+publishedOnDate:
+  other: 'publicado el {{ .Date }}'
+includedInCategories:
+  other: 'incluido en {{ .Categories }}'
+wordCount:
+  one: Una palabra
+  other: '{{ .Count }} palabras'
+readingTime:
+  one: Un minuto
+  other: '{{ .Count }} minutos'
+views:
+  other: vistas
+author:
+  other: Autor
+updatedOnDate:
+  other: 'Actualizado el {{ .Date }}'
+readMarkdown:
+  other: Leer Markdown
+back:
+  other: Regresar
+home:
+  other: Inicio
+readMore:
+  other: Leer más
+pageNotFound:
+  other: Página no encontrada
+pageNotFoundText:
+  other: La página que estás buscando no existe. Lo siento.
+note:
+  other: Nota
+abstract:
+  other: Resumen
+info:
+  other: Información
+tip:
+  other: Consejo
+success:
+  other: Éxito
+question:
+  other: Pregunta
+warning:
+  other: Advertencia
+failure:
+  other: Fallo
+danger:
+  other: Peligro
+bug:
+  other: Error
+example:
+  other: Ejemplo
+quote:
+  other: Cita
+new:
+  other: NUEVO
+changed:
+  other: MODIFICADO
+deleted:
+  other: ELIMINADO
