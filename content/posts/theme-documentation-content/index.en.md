@@ -10,7 +10,7 @@ description: "Find out how to create and organize your content quickly and intui
 images: []
 resources:
 - name: "featured-image"
-  src: "featured-image.jpg"
+  src: "euro.jpg"
 
 tags: ["content", "Markdown"]
 categories: ["documentation"]
