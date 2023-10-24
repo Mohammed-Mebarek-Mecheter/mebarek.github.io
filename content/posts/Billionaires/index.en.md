@@ -130,3 +130,51 @@ Patterns and Trends:
 ### Conclusion
 
 - This part provides a comprehensive understanding of how wealth among billionaires has evolved over the years, showcasing variations by region and sector. It offers valuable insights into the dynamics of billionaire wealth, highlighting both consistent growth and fluctuations in different areas and industries.
+
+# Self-Made vs. Inherited Wealth Analysis
+
+In this project, we conducted an analysis of the dataset of billionaires, focusing on the classification of billionaires' wealth as self-made or inherited. We also explored whether gender and location play a role in determining whether a billionaire's wealth is self-made or inherited.
+
+### Step 1: Data Preparation
+
+1. We began by loading the dataset, which contains information about billionaires from 1996 to 2014.
+
+2. We filtered the dataset to include only the relevant columns, 'wealth.how.inherited' and 'wealth.how.was founder,' which are essential for categorizing billionaires based on the source of their wealth.
+
+3. A new binary column, 'self_made,' was created to categorize individuals as either self-made or inherited based on the information in the 'wealth.how.inherited' and 'wealth.how.was founder' columns.
+
+### Step 2: Proportion Calculation
+
+4. We calculated the proportion of self-made billionaires and those with inherited wealth in the dataset.
+
+5. The proportion of self-made billionaires was determined by counting the number of individuals categorized as "self-made" and dividing it by the total count of billionaires.
+
+6. The proportion of inherited billionaires was calculated by subtracting the self-made proportion from 1.
+
+7. The results indicated that approximately 64.04% of the billionaires were self-made, while around 35.96% had inherited wealth.
+
+## Gender Analysis
+
+8. To explore the role of gender, we counted the number of male and female billionaires in the dataset.
+
+9. The dataset contains 2,288 male billionaires and 248 female billionaires.
+
+### Step 3: Gender and Location Analysis
+
+10. We grouped the data by gender to further investigate the proportions of self-made and inherited billionaires among males and females.
+
+11. The proportions for each gender were calculated and displayed to examine whether gender plays a role in wealth origin.
+
+### Step 4: Location Analysis
+
+12. We also explored whether location (citizenship) has an impact on the source of wealth for billionaires.
+
+13. The data was grouped by location, and proportions of self-made and inherited billionaires for each location were calculated and analyzed.
+
+### Conclusion
+
+In this analysis, we found that gender and location can play a role in whether a billionaire's wealth is self-made or inherited. The proportions of self-made and inherited billionaires varied among different genders and locations.
+
+This project provides valuable insights into the sources of wealth among billionaires and helps us understand the dynamics of wealth accumulation in the dataset.
+
+- GitHub Repository: https://github.com/Mohammed-Mebarek-Mecheter/Basic-Data-Analysis-Projects/tree/main/Billionaires
